@@ -86,8 +86,8 @@ date_default_timezone_set('Asia/Jakarta');
 include_once ('functiony.php');
 $token = $accesstoken;
         {
-        echo color("nevy","\nKlaim Voucher");
-        echo "\n".color("green","* Wait....");
+        echo color("red","~Klaim Voucher~");
+        echo "\n".color("green","* Klaim Voucher Gombret");
         echo "\n".color("blue","* Dagoan heula..");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
