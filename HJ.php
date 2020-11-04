@@ -5,32 +5,20 @@ include "functiony.php";
 ulang:
 // function change(){
 os.system('clear');
-echo color("red","*                                                                                                     
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-  -Ms  .N .syooyo`+smhs-   .dsh/`M`  os yhsssh. Nsssyy`:Nsss -Mo  -m sdssss. myss- dysssy`          
-  -N+d--N m:    ss  d/     .hs- `M`  oy ho..-d/ M:..:m.:m+++ -m+d--m ss   :m ms++- d+..-m:          
-  -N .dyN ho   `h+  d/     --`sy N.  yo hy/oN-  M+/yd` :m... -m .dym ss   oh m/..` ds/sm.           
-  .y   oy  /ssss-   s:     .sss- -sss+  o:  -y` h`  +o -hsss -y   oy +ysss/  ysss: s-  :s`          
-                                                                                                    
-                                                                                                    
-                                                                      /++++.+++/  .+`  +`   :-      
-                                                                      ``M.`:d```  dhy  Md` /Ns      
-                                                                        M` :moo/ smoN+ M/d/dos      
-                                                                        N` :moo//d  `m-N /d`+s      
-                                                                        `   ```        `            
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    \n");
+echo color("green","* 
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMmmNMMMNmNMMMNmmmNMmmmmmmmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMm..:mMMs.oMm:.:/:oN::-..::sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMm `-.hMo +Ms `ymNNMNNy .NNNy++/sNMs++/oNMs/so:/ys/:oNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMm `N/`oo +MNs:..:yMMMy .MM+ :s+ +Msss: /M/ :ds `hd. hMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMm `MMs`` +Mmdmdo `NMMy .MM- :osoyy`:y+ :M/ oMd `MM- yMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMm-:MMMh--oMy:::::yMMMh-:MMm/-///Nd--++-+Mo-sMm--MM/-hMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMNNMMMMNNMMMNNNNMMMMMMNNMMMMNNNNMMNNNMNNMNNMMMNNMMNNMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n");
 echo color("red","* NOT SURRENDER TEAM \n");
 echo color("green","* NOT SURRENDER TEAM \n");
-echo color("green","* NOT SURRENDER TEAM \n");
-echo color("blue","* NOT SURRENDER TEAM \n");
+echo color("yellow","* NOT SURRENDER TEAM \n");
 echo color("blue","* NOT SURRENDER TEAM \n");
 echo color("white","* By Region Bandung \n");
 echo color("green","* Time : ".date('[d-m-Y] [H:i:s]')." \n");
