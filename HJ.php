@@ -86,8 +86,8 @@ date_default_timezone_set('Asia/Jakarta');
 include_once ('functiony.php');
 $token = $accesstoken;
         {
-        echo color("red","~Klaim Voucher~");
-        echo "\n".color("green","* Klaim Voucher Gombret");
+        echo color("nevy","\nKlaim Voucher");
+        echo "\n".color("green","* Wait....");
         echo "\n".color("blue","* Dagoan heula..");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -101,35 +101,6 @@ $token = $accesstoken;
         }else{
         echo "\n".color("red"," Message: ".$message);
 	      gocar:
-        echo "\n".color("nevy"," Claim voc 2");
-        echo "\n".color("yellow"," Please wait");
-        for($a=1;$a<=3;$a++){
-        echo color("yellow",".");
-        sleep(20);
-        }
-        $code1 = request1('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI7"}');
-        $message = fetch_value($code1,'"message":"','"');
-        if(strpos($code1, 'Promo kamu sudah bisa dipakai.')){
-        echo "\n".color("green"," Message: ".$message);
-        goto gofood;
-        }else{
-        echo "\n".color("red"," Message: ".$message);
-        gofood:
-        echo "\n".color("nevy"," Claim voc 3");
-        echo "\n".color("yellow"," Please wait");
-        for($a=1;$a<=3;$a++){
-        echo color("yellow",".");
-        sleep(10);
-        }
-        $code1 = request2('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI4"}');
-        $message = fetch_value($code1,'"message":"','"');
-        echo "\n".color("green"," Message: ".$message);
-        echo "\n".color("nevy"," Claim voc 4");
-        echo "\n".color("yellow"," Please wait");
-        for($a=1;$a<=3;$a++){
-        echo color("yellow",".");
-        sleep(1);
-        }
         sleep(5);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=13&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
